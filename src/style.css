@@ -135,3 +135,19 @@ button:focus-visible {
   display: flex;
   gap: 1rem;
 }
+.customTurnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+label{
+  font-weight: bold;
+  
+}
+
+#customTurn {
+  display: flex;
+  border-radius: 5px;
+}
