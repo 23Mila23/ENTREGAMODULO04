@@ -9,15 +9,15 @@
   </head>
   <body>
     <div class="turno-display">
-      <h1 class="numero-turno">01</h1>
+      <h1 class="numero-turno" id="current-turn">01</h1>
       <p class="texto-turno">Por favor, acérquese al mostrador</p>
     </div>
     <div id="buttons-container">
       <div class="back-and-forward-actions">
-        <button>Atras</button>
-        <button>Delante</button>
+        <button id="button-back">Atras</button>
+        <button id="button-forward">Delante</button>
       </div>
-      <button>Reset</button>
+      <button id="button-reset">Reset</button>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
