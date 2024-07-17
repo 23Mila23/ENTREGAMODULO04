@@ -133,6 +133,8 @@ button:focus-visible {
 }
 .back-and-forward-actions {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 .customTurnContainer{
@@ -140,14 +142,21 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 1rem;
   
 }
 label{
   font-weight: bold;
-  
 }
 
-#customTurn {
-  display: flex;
+input{
+  height: 1rem;
   border-radius: 5px;
+  width: 6rem;
+}
+
+.customTurnButton{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
